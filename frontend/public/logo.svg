@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Background (optional, but good for visibility) -->
+  <rect width="100" height="100" fill="none" />
+  
+  <!-- Shopping Cart (Dark Blue) -->
+  <path d="M 15 30 L 30 30 L 40 70 L 80 70 L 90 40 L 35 40" fill="none" stroke="#103b6e" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="45" cy="85" r="6" fill="#103b6e" />
+  <circle cx="75" cy="85" r="6" fill="#103b6e" />
+  <line x1="42" y1="50" x2="85" y2="50" stroke="#103b6e" stroke-width="4" />
+  <line x1="45" y1="60" x2="82" y2="60" stroke="#103b6e" stroke-width="4" />
+  <line x1="55" y1="40" x2="52" y2="70" stroke="#103b6e" stroke-width="4" />
+  <line x1="70" y1="40" x2="67" y2="70" stroke="#103b6e" stroke-width="4" />
+
+  <!-- Stars/Sparkles (Yellow/Gold) -->
+  <path d="M 50 10 L 53 20 L 63 20 L 55 25 L 58 35 L 50 28 L 42 35 L 45 25 L 37 20 L 47 20 Z" fill="#fcb900" />
+  <path d="M 70 15 L 72 20 L 77 20 L 73 23 L 75 28 L 70 25 L 65 28 L 67 23 L 63 20 L 68 20 Z" fill="#fcb900" />
+  <path d="M 35 15 L 36 18 L 39 18 L 37 20 L 38 23 L 35 21 L 32 23 L 33 20 L 31 18 L 34 18 Z" fill="#fcb900" />
+  <path d="M 80 30 L 81 33 L 84 33 L 82 35 L 83 38 L 80 36 L 77 38 L 78 35 L 76 33 L 79 33 Z" fill="#fcb900" />
+</svg>

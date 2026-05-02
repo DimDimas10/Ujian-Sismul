@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  body {
+    @apply antialiased transition-colors duration-300;
+    @apply bg-gray-50 text-gray-900;
+  }
+  
+  .dark body {
+    @apply bg-gray-900 text-gray-100;
+  }
+}
+
+/* Memastikan warna font di semua elemen mengikuti tema */
+.dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
+  @apply text-white;
+}
+
+.dark p, .dark label, .dark span {
+  @apply text-gray-300;
+}
+
+.dark input, .dark textarea, .dark select {
+  @apply bg-gray-800 border-gray-700 text-white placeholder-gray-500;
+}
